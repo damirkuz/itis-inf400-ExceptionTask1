@@ -6,6 +6,6 @@ public class WrongPasswordException extends Exception {
     }
 
     public WrongPasswordException() {
-        super("Неправильный пароль");
+        super("Некорректный пароль");
     }
 }
